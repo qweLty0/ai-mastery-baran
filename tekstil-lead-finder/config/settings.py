@@ -96,25 +96,26 @@ EMAIL_CONFIG = {
     "delay_between_emails": (30, 60),  # Seconds
 }
 
-# Company Information (customize this)
+# Company Information - HDM TEKSTIL
 COMPANY_INFO = {
-    "name": os.getenv("COMPANY_NAME", "Your Textile Company"),
+    "name": "HDM TEKSTIL",
     "monthly_capacity": "200,000 pieces",
     "specialization": [
         "T-shirts",
         "Polo shirts",
+        "Sweatshirts",
         "Hoodies",
         "Sportswear",
         "Casual wear",
+        "Workwear",
     ],
     "certifications": [
         "ISO 9001",
         "OEKO-TEX",
-        "GOTS",
     ],
-    "website": os.getenv("COMPANY_WEBSITE", "www.yourcompany.com"),
-    "contact_email": os.getenv("CONTACT_EMAIL", "export@yourcompany.com"),
-    "phone": os.getenv("CONTACT_PHONE", "+90 xxx xxx xx xx"),
+    "website": os.getenv("COMPANY_WEBSITE", ""),
+    "contact_email": "baransayihdm@gmail.com",
+    "phone": os.getenv("CONTACT_PHONE", ""),
 }
 
 # Lead Scoring Weights
